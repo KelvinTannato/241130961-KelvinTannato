@@ -5,12 +5,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #edfaee;
+}
+
 header, main{
     max-width: 1080px;
     margin: 0 auto;
 }
 
-h1 { padding: 8px 10px; }
+h1 { 
+    padding: 8px 10px;
+    color: green; 
+}
+
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
@@ -66,7 +74,7 @@ section { flex: 1;}
 
 .data-produk p {font-size: 12px;}
 
-.price {flex: 0.6; font-size: 18px:}
+.price {flex: 0.6; font-size: 18px;}
 
 .quantity {
     display: flex;
@@ -126,12 +134,13 @@ section { flex: 1;}
 
 #apply {
     color: white;
-    background-color: red;
+    background-color:  green;
     margin-bottom: 25px;
 }
 
 #reset {
     margin-top: 3px;
+    background-color: red;
 }
 
 #output {
